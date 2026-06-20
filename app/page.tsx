@@ -10,37 +10,31 @@ type Ev = {
 };
 
 const EVENTS: Ev[] = [
-  // ===== 15-21 ΙΟΥΝΙΟΥ =====
-  { id: "E601", title: "David Byrne — Who Is The Sky Tour", cat: "Μουσική", date: "2026-06-21", end: "2026-06-21", time: "21:00", venue: "Ξέφωτο ΚΠΙΣΝ", area: "Καλλιθέα", price: "30-60€", free: false, desc: "Ο θρυλικός frontman των Talking Heads στο Ξέφωτο του ΚΠΙΣΝ, στο πλαίσιο Release Athens x SNF Nostos.", url: "https://releaseathens.gr" },
-  { id: "E602", title: "Limp Bizkit — Release Athens", cat: "Μουσική", date: "2026-06-15", end: "2026-06-15", time: "20:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "55-75€", free: false, desc: "Μετά από δεκαετίες προσμονής, το μεγάλο απωθημένο του nu metal κοινού επιτέλους στην Ελλάδα.", url: "https://releaseathens.gr" },
-  { id: "E603", title: "Χειμερινοί Κολυμβητές live", cat: "Μουσική", date: "2026-06-15", end: "2026-06-15", time: "21:00", venue: "Θέατρο Δόρα Στράτου", area: "Φιλοπάππου", price: "15-20€", free: false, desc: "Οι Χειμερινοί Κολυμβητές επιστρέφουν στο πανέμορφο θέατρο του Φιλοπάππου.", url: "https://more.com" },
-  { id: "E604", title: "Circle Jerks — πρώτη φορά στην Ελλάδα", cat: "Μουσική", date: "2026-06-17", end: "2026-06-17", time: "21:00", venue: "Gagarin 205", area: "Κέντρο", price: "30€", free: false, desc: "Οι θρυλικοί hardcore punk Circle Jerks έρχονται για πρώτη φορά στην Ελλάδα.", url: "https://more.com" },
-  { id: "E605", title: "Μανώλης Μητσιάς — Συναυλία για το MDA Ελλάς", cat: "Μουσική", date: "2026-06-17", end: "2026-06-17", time: "21:00", venue: "Βεάκειο Θέατρο", area: "Πειραιάς", price: "15-25€", free: false, desc: "Συναυλία αφιερωμένη στο MDA Ελλάς στο Βεάκειο Θέατρο Πειραιά.", url: "https://more.com" },
-  { id: "E606", title: "Refugee Week Greece 2026", cat: "Φεστιβάλ", date: "2026-06-15", end: "2026-06-21", time: "Ποικίλο", venue: "Διάφοροι χώροι", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Το φεστιβάλ επιστρέφει για 5η χρονιά τιμώντας τη δημιουργικότητα και τη δύναμη της προσφυγικής κοινότητας.", url: "https://refugeeweek.gr" },
-  { id: "E607", title: "Οι Άθλοι του Ηρακλή — Θέατρο Σκιών", cat: "Παιδικά", date: "2026-06-16", end: "2026-06-16", time: "20:30", venue: "Κήπος Μεγάρου Μουσικής", area: "Κέντρο", price: "10-15€", free: false, desc: "Ο Ηρακλής ως γιγαντοφιγούρα θεάτρου σκιών, με τον Καραγκιόζη στο πλευρό του, στον Κήπο του Μεγάρου.", url: "https://megaron.gr" },
-  { id: "E608", title: "PAGAN — Θερινό Ηλιοστάσιο", cat: "Φεστιβάλ", date: "2026-06-21", end: "2026-06-21", time: "19:00", venue: "Τεχνόπολη", area: "Γκάζι", price: "15€", free: false, desc: "Στην καρδιά του θερινού ηλιοστασίου, οι PAGAN ανοίγουν τις πύλες της Τεχνόπολης σε μια μυσταγωγία.", url: "https://athens-technopolis.gr" },
-  { id: "E609", title: "Hide to Show — Nadar Ensemble", cat: "Μουσική", date: "2026-06-20", end: "2026-06-21", time: "21:00", venue: "Πειραιώς 260", area: "Ταύρος", price: "12-18€", free: false, desc: "Το μουσικό σύνολο Nadar Ensemble και ο συνθέτης Michael Beil στο Φεστιβάλ Αθηνών Επιδαύρου.", url: "https://aefestival.gr" },
-  { id: "E610", title: "Open Mic Challenge — Ο Μεγάλος Τελικός", cat: "Μουσική", date: "2026-06-18", end: "2026-06-18", time: "21:00", venue: "Theatre of the NO", area: "Κέντρο", price: "8€", free: false, desc: "Ο μεγάλος τελικός του Open Mic Challenge – New Talents Music Nights κλείνει τη σεζόν.", url: "https://more.com" },
+  // ===== 22-28 ΙΟΥΝΙΟΥ =====
+  { id: "E701", title: "Gorillaz — πρώτη φορά στην Ελλάδα", cat: "Μουσική", date: "2026-06-25", end: "2026-06-25", time: "20:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "60-85€", free: false, desc: "Το πρωτοποριακό project του Damon Albarn έρχεται για πρώτη φορά στην Ελλάδα, στο πλαίσιο Release Athens.", url: "https://releaseathens.gr" },
+  { id: "E702", title: "Σωκράτης Μάλαμας live", cat: "Μουσική", date: "2026-06-22", end: "2026-06-22", time: "21:00", venue: "Θέατρο Πέτρας", area: "Πετρούπολη", price: "18€", free: false, desc: "Ο Σωκράτης Μάλαμας με την Ιουλία Καραπατάκη και τον Γιάννη Μάλαμα, σε μια αναμενόμενη sold out βραδιά.", url: "https://more.com" },
+  { id: "E703", title: "Ελεωνόρα Ζουγανέλη live", cat: "Μουσική", date: "2026-06-24", end: "2026-06-24", time: "21:00", venue: "Βεάκειο Θέατρο", area: "Πειραιάς", price: "20-28€", free: false, desc: "Η Ελεωνόρα Ζουγανέλη επιστρέφει στο Βεάκειο για μια ξεχωριστή καλοκαιρινή συναυλία.", url: "https://more.com" },
+  { id: "E704", title: "Athens Summer Beat — Πάρκο Ελευθερίας", cat: "Φεστιβάλ", date: "2026-06-26", end: "2026-06-26", time: "20:00", venue: "Πάρκο Ελευθερίας", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Οι 95.2 Athens DeeJay και Best 92.6 μετατρέπουν το πάρκο σε ανοιχτό dancefloor. Είσοδος ελεύθερη!", url: "https://festival.opanda.gr" },
+  { id: "E705", title: "Καντάδες με Άρωμα Ιονίου", cat: "Μουσική", date: "2026-06-26", end: "2026-06-26", time: "20:30", venue: "Πεζόδρομοι Πλάκας & Ψυρρή", area: "Πλάκα", price: "Δωρεάν", free: true, desc: "Μελωδικές καντάδες γεμίζουν τους πεζόδρομους, με συνάντηση όλων των σχημάτων στην Πλατεία Μοναστηρακίου.", url: "https://festival.opanda.gr" },
+  { id: "E706", title: "«Εκείνη & Εκείνη» — Ίκαρη & Βουλγαράκη", cat: "Μουσική", date: "2026-06-28", end: "2026-06-28", time: "21:00", venue: "Πλατεία Σανταρόζα", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Η Βιολέτα Ίκαρη και η Παυλίνα Βουλγαράκη σε μια κοινή συναυλία. Δωρεάν, στο πλαίσιο «Καλοκαίρι στην Αθήνα».", url: "https://festival.opanda.gr" },
+  { id: "E707", title: "Gorillaz — 2η ημέρα", cat: "Μουσική", date: "2026-06-27", end: "2026-06-27", time: "20:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "60-85€", free: false, desc: "Δεύτερη βραδιά για τους Gorillaz στο Release Athens, μετά το sold out της Πέμπτης.", url: "https://releaseathens.gr" },
+  { id: "E708", title: "Χορευτικές Παραστάσεις — Δόρα Στράτου", cat: "Θέατρο", date: "2026-06-27", end: "2026-06-28", time: "21:30", venue: "Θέατρο Δόρα Στράτου", area: "Φιλοπάππου", price: "12-18€", free: false, desc: "Δύο μοναδικές χορευτικές παραστάσεις Σάββατο 27 και Κυριακή 28 Ιουνίου.", url: "https://more.com" },
+  { id: "E709", title: "Hugel live — Electronic Show", cat: "Μουσική", date: "2026-06-26", end: "2026-06-26", time: "22:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "35-45€", free: false, desc: "Ένας από τους πιο επιδραστικούς DJs της παγκόσμιας electronic σκηνής σε μεγάλο καλοκαιρινό show.", url: "https://more.com" },
+  { id: "E710", title: "Καλοκαιρινή Δημιουργική Απασχόληση", cat: "Παιδικά", date: "2026-06-22", end: "2026-06-26", time: "08:00", venue: "Κέντρα Δημιουργικής Μάθησης", area: "Διάφορες", price: "Δωρεάν", free: true, desc: "Δωρεάν δράσεις για παιδιά 6-12 ετών στα Κέντρα Δημιουργικής Μάθησης του Δήμου Αθηναίων.", url: "https://www.cityofathens.gr" },
   // ===== ΣΕ ΕΞΕΛΙΞΗ =====
-  { id: "E611", title: "Δήμητρα Σιατερλή — Χαρακτικά & Γλυπτά", cat: "Εκθέσεις", date: "2026-05-14", end: "2026-06-21", time: "10:00", venue: "Πινακοθήκη Δ. Αθηναίων — Μεταξουργείο", area: "Μεταξουργείο", price: "Δωρεάν", free: true, desc: "Χαρακτικά, γλυπτά και εγκαταστάσεις για τη σύνδεση και την ανθεκτικότητα. Τελευταία εβδομάδα!", url: "https://pinakothiki-athinas.gr" },
-  { id: "E612", title: "Χρήστος Μποκόρος — Ο ίσκιος του Παπαδιαμάντη", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-08-31", time: "09:00", venue: "Εθνική Βιβλιοθήκη", area: "ΚΠΙΣΝ", price: "Δωρεάν", free: true, desc: "23 προσωπογραφίες του Παπαδιαμάντη βασισμένες σε ιστορική φωτογραφία.", url: "https://nlg.gr" },
-  { id: "E613", title: "Barbara Kruger — Νέα Έργα", cat: "Εκθέσεις", date: "2026-05-25", end: "2026-11-01", time: "10:00", venue: "ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "13 νέα έργα που σχολιάζουν τον δημόσιο χώρο και κοινωνικοπολιτικά ζητήματα.", url: "https://snfcc.org" },
-  { id: "E614", title: "Le Passage — Μαρίνα Καρέλλα", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-07-04", time: "11:00", venue: "Γκαλερί Ζουμπουλάκη", area: "Κολωνάκι", price: "Δωρεάν", free: true, desc: "Νέα ενότητα έργων της Μαρίνας Καρέλλα — ένα πραγματικό «πέρασμα» σε νέο εικαστικό ιδίωμα.", url: "https://zoumboulakis.gr" },
-  { id: "E615", title: "Σιωπηλές Χαράξεις — Νικολέττα Τζάννε", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-06-27", time: "11:00", venue: "Genesis Gallery", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Η ύλη αναπτύσσεται ως αποτύπωμα μιας διαρκούς επεξεργασίας.", url: "https://genesis-gallery.gr" },
-  { id: "E616", title: "Tilda Swinton — Κινηματογραφικό Αφιέρωμα", cat: "Πολιτισμός", date: "2026-06-01", end: "2026-06-27", time: "20:00", venue: "ΕΜΣΤ", area: "Κέντρο", price: "5-8€", free: false, desc: "Αφιέρωμα στο έργο της Tilda Swinton με προβολές και συνεργασίες σκηνοθετών.", url: "https://emst.gr" },
-  { id: "E617", title: "Aleksandra Waliszewska — Η Εισβολή της Αρχαιότητας", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-09-30", time: "10:00", venue: "Μουσείο Μπενάκη", area: "Κέντρο", price: "9€", free: false, desc: "Ατμοσφαιρική έκθεση της Πολωνής εικαστικού στο Μουσείο Μπενάκη.", url: "https://benaki.org" },
-  { id: "E618", title: "Έμπνευση: Αρχαία Ελληνική Τέχνη στην Ιταλία", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-10-31", time: "09:00", venue: "Μουσείο Ακρόπολης", area: "Ακρόπολη", price: "15€", free: false, desc: "Έκθεση για την επιρροή της αρχαίας ελληνικής τέχνης στην Ιταλία.", url: "https://theacropolismuseum.gr" },
-  { id: "E619", title: "Ο Κόσμος της Πρωτοπορίας — Συλλογή Κωστάκη", cat: "Εκθέσεις", date: "2026-04-15", end: "2026-12-28", time: "10:00", venue: "Εθνική Πινακοθήκη", area: "Κέντρο", price: "10€", free: false, desc: "Έργα ρωσικής πρωτοπορίας από τη Συλλογή Κωστάκη.", url: "https://nationalgallery.gr" },
+  { id: "E711", title: "Καλοκαίρι στην Αθήνα 2026 — Φεστιβάλ", cat: "Φεστιβάλ", date: "2026-06-20", end: "2026-07-20", time: "Ποικίλο", venue: "50 σημεία της πόλης", area: "Όλη η πόλη", price: "Δωρεάν", free: true, desc: "63 δωρεάν εκδηλώσεις, για 31 ημέρες, σε 50 σημεία. Η Αθήνα γίνεται ανοιχτή σκηνή πολιτισμού.", url: "https://festival.opanda.gr" },
+  { id: "E712", title: "Χρήστος Μποκόρος — Ο ίσκιος του Παπαδιαμάντη", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-08-31", time: "09:00", venue: "Εθνική Βιβλιοθήκη", area: "ΚΠΙΣΝ", price: "Δωρεάν", free: true, desc: "23 προσωπογραφίες του Παπαδιαμάντη βασισμένες σε ιστορική φωτογραφία.", url: "https://nlg.gr" },
+  { id: "E713", title: "Barbara Kruger — Νέα Έργα", cat: "Εκθέσεις", date: "2026-05-25", end: "2026-11-01", time: "10:00", venue: "ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "13 νέα έργα που σχολιάζουν τον δημόσιο χώρο και κοινωνικοπολιτικά ζητήματα.", url: "https://snfcc.org" },
+  { id: "E714", title: "Le Passage — Μαρίνα Καρέλλα", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-07-04", time: "11:00", venue: "Γκαλερί Ζουμπουλάκη", area: "Κολωνάκι", price: "Δωρεάν", free: true, desc: "Νέα ενότητα έργων της Μαρίνας Καρέλλα — ένα πραγματικό «πέρασμα» σε νέο εικαστικό ιδίωμα.", url: "https://zoumboulakis.gr" },
+  { id: "E715", title: "Σιωπηλές Χαράξεις — Νικολέττα Τζάννε", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-06-27", time: "11:00", venue: "Genesis Gallery", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Η ύλη αναπτύσσεται ως αποτύπωμα μιας διαρκούς επεξεργασίας. Τελευταίες μέρες.", url: "https://genesis-gallery.gr" },
+  { id: "E716", title: "Tilda Swinton — Κινηματογραφικό Αφιέρωμα", cat: "Πολιτισμός", date: "2026-06-01", end: "2026-06-27", time: "20:00", venue: "ΕΜΣΤ", area: "Κέντρο", price: "5-8€", free: false, desc: "Αφιέρωμα στο έργο της Tilda Swinton με προβολές και συνεργασίες σκηνοθετών.", url: "https://emst.gr" },
+  { id: "E717", title: "Aleksandra Waliszewska — Η Εισβολή της Αρχαιότητας", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-09-30", time: "10:00", venue: "Μουσείο Μπενάκη", area: "Κέντρο", price: "9€", free: false, desc: "Ατμοσφαιρική έκθεση της Πολωνής εικαστικού στο Μουσείο Μπενάκη.", url: "https://benaki.org" },
+  { id: "E718", title: "Έμπνευση: Αρχαία Ελληνική Τέχνη στην Ιταλία", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-10-31", time: "09:00", venue: "Μουσείο Ακρόπολης", area: "Ακρόπολη", price: "15€", free: false, desc: "Έκθεση για την επιρροή της αρχαίας ελληνικής τέχνης στην Ιταλία.", url: "https://theacropolismuseum.gr" },
+  { id: "E719", title: "Ο Κόσμος της Πρωτοπορίας — Συλλογή Κωστάκη", cat: "Εκθέσεις", date: "2026-04-15", end: "2026-12-28", time: "10:00", venue: "Εθνική Πινακοθήκη", area: "Κέντρο", price: "10€", free: false, desc: "Έργα ρωσικής πρωτοπορίας από τη Συλλογή Κωστάκη.", url: "https://nationalgallery.gr" },
 ];
 
-const FEATURED_ID = "E601";
+const FEATURED_ID = "E701";
 
-/*
-  ΕΙΚΟΝΕΣ — Διπλό σύστημα:
-  1) Πρώτα ψάχνει τοπικό αρχείο στο /public/img/ (π.χ. public/img/mousiki.jpg)
-  2) Αν δεν υπάρχει, δείχνει ΑΥΤΟΜΑΤΑ εγγυημένο fallback από picsum.photos
-  Έτσι το site δείχνει φωτογραφίες ΠΑΝΤΑ — και αναβαθμίζεις σταδιακά με δικές σου.
-*/
 const CAT_FILE: Record<string, string> = {
   "Μουσική": "mousiki", "Θέατρο": "theatro", "Εκθέσεις": "ektheseis",
   "Φεστιβάλ": "festival", "Παιδικά": "paidika", "Πολιτισμός": "politismos",
@@ -97,8 +91,6 @@ export default function Home() {
   const [q, setQ] = useState("");
   const [liked, setLiked] = useState<Record<string, boolean>>({});
   const [pick, setPick] = useState<Ev | null>(null);
-  const [email, setEmail] = useState("");
-  const [subscribed, setSubscribed] = useState(false);
 
   const live = useMemo(() => EVENTS.filter(e => e.end >= today), [today]);
 
@@ -375,14 +367,8 @@ export default function Home() {
           <div className="news-inner">
             <h2>Τι παίζει αυτή την εβδομάδα;</h2>
             <p>Κάθε Δευτέρα πρωί, τα highlights της Αθήνας στο inbox σου. Χωρίς spam, μόνο πλάνα.</p>
-            {!subscribed ? (
-              <div className="row">
-                <input type="email" placeholder="email@example.com" value={email} onChange={e => setEmail(e.target.value)} />
-                <button className="go" onClick={() => { if (email.includes("@")) setSubscribed(true); }}>Γράψε με</button>
-              </div>
-            ) : (
-              <div className="ok">✓ Ευχαριστούμε! Θα τα πούμε Δευτέρα.</div>
-            )}
+            {/* MailerLite embedded form */}
+            <div className="ml-embedded" data-form="oJTC5E"></div>
           </div>
         </div>
       </main>
