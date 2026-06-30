@@ -10,30 +10,28 @@ type Ev = {
 };
 
 const EVENTS: Ev[] = [
-  // ===== 22-28 ΙΟΥΝΙΟΥ =====
-  { id: "E701", title: "Gorillaz — πρώτη φορά στην Ελλάδα", cat: "Μουσική", date: "2026-06-25", end: "2026-06-25", time: "20:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "60-85€", free: false, desc: "Το πρωτοποριακό project του Damon Albarn έρχεται για πρώτη φορά στην Ελλάδα, στο πλαίσιο Release Athens.", url: "https://releaseathens.gr" },
-  { id: "E702", title: "Σωκράτης Μάλαμας live", cat: "Μουσική", date: "2026-06-22", end: "2026-06-22", time: "21:00", venue: "Θέατρο Πέτρας", area: "Πετρούπολη", price: "18€", free: false, desc: "Ο Σωκράτης Μάλαμας με την Ιουλία Καραπατάκη και τον Γιάννη Μάλαμα, σε μια αναμενόμενη sold out βραδιά.", url: "https://more.com" },
-  { id: "E703", title: "Ελεωνόρα Ζουγανέλη live", cat: "Μουσική", date: "2026-06-24", end: "2026-06-24", time: "21:00", venue: "Βεάκειο Θέατρο", area: "Πειραιάς", price: "20-28€", free: false, desc: "Η Ελεωνόρα Ζουγανέλη επιστρέφει στο Βεάκειο για μια ξεχωριστή καλοκαιρινή συναυλία.", url: "https://more.com" },
-  { id: "E704", title: "Athens Summer Beat — Πάρκο Ελευθερίας", cat: "Φεστιβάλ", date: "2026-06-26", end: "2026-06-26", time: "20:00", venue: "Πάρκο Ελευθερίας", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Οι 95.2 Athens DeeJay και Best 92.6 μετατρέπουν το πάρκο σε ανοιχτό dancefloor. Είσοδος ελεύθερη!", url: "https://festival.opanda.gr" },
-  { id: "E705", title: "Καντάδες με Άρωμα Ιονίου", cat: "Μουσική", date: "2026-06-26", end: "2026-06-26", time: "20:30", venue: "Πεζόδρομοι Πλάκας & Ψυρρή", area: "Πλάκα", price: "Δωρεάν", free: true, desc: "Μελωδικές καντάδες γεμίζουν τους πεζόδρομους, με συνάντηση όλων των σχημάτων στην Πλατεία Μοναστηρακίου.", url: "https://festival.opanda.gr" },
-  { id: "E706", title: "«Εκείνη & Εκείνη» — Ίκαρη & Βουλγαράκη", cat: "Μουσική", date: "2026-06-28", end: "2026-06-28", time: "21:00", venue: "Πλατεία Σανταρόζα", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Η Βιολέτα Ίκαρη και η Παυλίνα Βουλγαράκη σε μια κοινή συναυλία. Δωρεάν, στο πλαίσιο «Καλοκαίρι στην Αθήνα».", url: "https://festival.opanda.gr" },
-  { id: "E707", title: "Gorillaz — 2η ημέρα", cat: "Μουσική", date: "2026-06-27", end: "2026-06-27", time: "20:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "60-85€", free: false, desc: "Δεύτερη βραδιά για τους Gorillaz στο Release Athens, μετά το sold out της Πέμπτης.", url: "https://releaseathens.gr" },
-  { id: "E708", title: "Χορευτικές Παραστάσεις — Δόρα Στράτου", cat: "Θέατρο", date: "2026-06-27", end: "2026-06-28", time: "21:30", venue: "Θέατρο Δόρα Στράτου", area: "Φιλοπάππου", price: "12-18€", free: false, desc: "Δύο μοναδικές χορευτικές παραστάσεις Σάββατο 27 και Κυριακή 28 Ιουνίου.", url: "https://more.com" },
-  { id: "E709", title: "Hugel live — Electronic Show", cat: "Μουσική", date: "2026-06-26", end: "2026-06-26", time: "22:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "35-45€", free: false, desc: "Ένας από τους πιο επιδραστικούς DJs της παγκόσμιας electronic σκηνής σε μεγάλο καλοκαιρινό show.", url: "https://more.com" },
-  { id: "E710", title: "Καλοκαιρινή Δημιουργική Απασχόληση", cat: "Παιδικά", date: "2026-06-22", end: "2026-06-26", time: "08:00", venue: "Κέντρα Δημιουργικής Μάθησης", area: "Διάφορες", price: "Δωρεάν", free: true, desc: "Δωρεάν δράσεις για παιδιά 6-12 ετών στα Κέντρα Δημιουργικής Μάθησης του Δήμου Αθηναίων.", url: "https://www.cityofathens.gr" },
+  // ===== 29 ΙΟΥΝΙΟΥ - 5 ΙΟΥΛΙΟΥ =====
+  { id: "E801", title: "John Legend — πρώτη φορά στην Ελλάδα", cat: "Μουσική", date: "2026-06-30", end: "2026-06-30", time: "21:00", venue: "Ωδείο Ηρώδου Αττικού", area: "Ακρόπολη", price: "55-120€", free: false, desc: "Ο πολυβραβευμένος John Legend έρχεται για πρώτη φορά στην Ελλάδα, για μια μοναδική εμφάνιση στο Ηρώδειο.", url: "https://more.com" },
+  { id: "E802", title: "Μαρία Παπαγεωργίου — Φ Hill Sessions", cat: "Μουσική", date: "2026-06-29", end: "2026-06-29", time: "21:00", venue: "Θέατρο Δόρα Στράτου", area: "Φιλοπάππου", price: "15-20€", free: false, desc: "Η Μαρία Παπαγεωργίου ανεβαίνει στη σκηνή του Δόρα Στράτου στο πλαίσιο των Φ Hill Sessions.", url: "https://more.com" },
+  { id: "E803", title: "«Το Σποτ» — Ζήσης Ρούμπος", cat: "Θέατρο", date: "2026-06-29", end: "2026-06-29", time: "21:00", venue: "Θέατρο Άλσος", area: "Πεδίον Άρεως", price: "14-18€", free: false, desc: "Το νέο έργο του Ζήση Ρούμπου σε σκηνοθεσία της Σοφίας Πάσχου, για πρεμιέρα στο Θέατρο Άλσος.", url: "https://more.com" },
+  { id: "E804", title: "Beat the Room — ΤΗΛΕΚΟΝΤΡΟΛ Edition", cat: "Μουσική", date: "2026-06-30", end: "2026-06-30", time: "21:00", venue: "Gazarte Roof Stage", area: "Γκάζι", price: "12-15€", free: false, desc: "Πρεμιέρα του Beat the Room με ΤΗΛΕΚΟΝΤΡΟΛ edition και παρουσιάστρια τη Σοφία Κουρτίδου.", url: "https://gazarte.gr" },
+  { id: "E805", title: "Stand-up Comedy στις γειτονιές", cat: "Πολιτισμός", date: "2026-06-30", end: "2026-06-30", time: "21:00", venue: "Γήπεδο Μπάσκετ Σεπολίων", area: "Σεπόλια", price: "Δωρεάν", free: true, desc: "Οι Στέλιος Ανατολίτης, Παναγιώτης Κούδας και Ειρήνη Ξυγκάκη σε μια δωρεάν παράσταση γεμάτη γέλιο.", url: "https://festival.opanda.gr" },
+  { id: "E806", title: "«Δημόσιο Σαλόνι: Μια εκτροπή»", cat: "Θέατρο", date: "2026-07-04", end: "2026-07-04", time: "20:00", venue: "Πλατεία Αυδή", area: "Μεταξουργείο", price: "Δωρεάν", free: true, desc: "Ένας οικιακός χώρος «εισβάλλει» σε μια πλατεία — ένα ανοιχτό εργαστήριο συλλογικής μνήμης.", url: "https://festival.opanda.gr" },
+  { id: "E807", title: "Γκαλά Όπερας — Κρατική Ορχήστρα Αθηνών", cat: "Μουσική", date: "2026-06-29", end: "2026-06-29", time: "21:00", venue: "Δημοτικό Θέατρο Λυκαβηττού", area: "Λυκαβηττός", price: "10-25€", free: false, desc: "Μεγάλο γκαλά όπερας από την Κρατική Ορχήστρα Αθηνών στο θέατρο του Λυκαβηττού.", url: "https://more.com" },
+  { id: "E808", title: "Κρατική Ορχήστρα — Αφιέρωμα στον Ελύτη", cat: "Μουσική", date: "2026-07-02", end: "2026-07-02", time: "21:00", venue: "Ρωμαϊκή Αγορά", area: "Πλάκα", price: "Δωρεάν", free: true, desc: "Αφιέρωμα στον Οδυσσέα Ελύτη με τη μουσική του Γιώργου Κουρουπού, στη Ρωμαϊκή Αγορά.", url: "https://festival.opanda.gr" },
+  { id: "E809", title: "Καραγκιόζης στις Γειτονιές", cat: "Παιδικά", date: "2026-07-01", end: "2026-07-01", time: "20:30", venue: "Πλατεία Κολιάτσου", area: "Πατήσια", price: "Δωρεάν", free: true, desc: "Ο θίασος Θεάτρου Σκιών του Σωτήρη Χαρίδημου παρουσιάζει μια παράσταση για όλη την οικογένεια.", url: "https://festival.opanda.gr" },
+  { id: "E810", title: "Ιφιγένεια η εν Αυλίδι — Ευριπίδης", cat: "Θέατρο", date: "2026-07-03", end: "2026-07-03", time: "21:00", venue: "Πάρκο Αντ. Τρίτση", area: "Ίλιον", price: "12€", free: false, desc: "Η τραγωδία του Ευριπίδη σε σκηνοθεσία Σάββα Στρούμπου, σε καλοκαιρινή περιοδεία.", url: "https://more.com" },
   // ===== ΣΕ ΕΞΕΛΙΞΗ =====
-  { id: "E711", title: "Καλοκαίρι στην Αθήνα 2026 — Φεστιβάλ", cat: "Φεστιβάλ", date: "2026-06-20", end: "2026-07-20", time: "Ποικίλο", venue: "50 σημεία της πόλης", area: "Όλη η πόλη", price: "Δωρεάν", free: true, desc: "63 δωρεάν εκδηλώσεις, για 31 ημέρες, σε 50 σημεία. Η Αθήνα γίνεται ανοιχτή σκηνή πολιτισμού.", url: "https://festival.opanda.gr" },
-  { id: "E712", title: "Χρήστος Μποκόρος — Ο ίσκιος του Παπαδιαμάντη", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-08-31", time: "09:00", venue: "Εθνική Βιβλιοθήκη", area: "ΚΠΙΣΝ", price: "Δωρεάν", free: true, desc: "23 προσωπογραφίες του Παπαδιαμάντη βασισμένες σε ιστορική φωτογραφία.", url: "https://nlg.gr" },
-  { id: "E713", title: "Barbara Kruger — Νέα Έργα", cat: "Εκθέσεις", date: "2026-05-25", end: "2026-11-01", time: "10:00", venue: "ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "13 νέα έργα που σχολιάζουν τον δημόσιο χώρο και κοινωνικοπολιτικά ζητήματα.", url: "https://snfcc.org" },
-  { id: "E714", title: "Le Passage — Μαρίνα Καρέλλα", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-07-04", time: "11:00", venue: "Γκαλερί Ζουμπουλάκη", area: "Κολωνάκι", price: "Δωρεάν", free: true, desc: "Νέα ενότητα έργων της Μαρίνας Καρέλλα — ένα πραγματικό «πέρασμα» σε νέο εικαστικό ιδίωμα.", url: "https://zoumboulakis.gr" },
-  { id: "E715", title: "Σιωπηλές Χαράξεις — Νικολέττα Τζάννε", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-06-27", time: "11:00", venue: "Genesis Gallery", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Η ύλη αναπτύσσεται ως αποτύπωμα μιας διαρκούς επεξεργασίας. Τελευταίες μέρες.", url: "https://genesis-gallery.gr" },
-  { id: "E716", title: "Tilda Swinton — Κινηματογραφικό Αφιέρωμα", cat: "Πολιτισμός", date: "2026-06-01", end: "2026-06-27", time: "20:00", venue: "ΕΜΣΤ", area: "Κέντρο", price: "5-8€", free: false, desc: "Αφιέρωμα στο έργο της Tilda Swinton με προβολές και συνεργασίες σκηνοθετών.", url: "https://emst.gr" },
-  { id: "E717", title: "Aleksandra Waliszewska — Η Εισβολή της Αρχαιότητας", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-09-30", time: "10:00", venue: "Μουσείο Μπενάκη", area: "Κέντρο", price: "9€", free: false, desc: "Ατμοσφαιρική έκθεση της Πολωνής εικαστικού στο Μουσείο Μπενάκη.", url: "https://benaki.org" },
-  { id: "E718", title: "Έμπνευση: Αρχαία Ελληνική Τέχνη στην Ιταλία", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-10-31", time: "09:00", venue: "Μουσείο Ακρόπολης", area: "Ακρόπολη", price: "15€", free: false, desc: "Έκθεση για την επιρροή της αρχαίας ελληνικής τέχνης στην Ιταλία.", url: "https://theacropolismuseum.gr" },
-  { id: "E719", title: "Ο Κόσμος της Πρωτοπορίας — Συλλογή Κωστάκη", cat: "Εκθέσεις", date: "2026-04-15", end: "2026-12-28", time: "10:00", venue: "Εθνική Πινακοθήκη", area: "Κέντρο", price: "10€", free: false, desc: "Έργα ρωσικής πρωτοπορίας από τη Συλλογή Κωστάκη.", url: "https://nationalgallery.gr" },
+  { id: "E811", title: "Καλοκαίρι στην Αθήνα 2026 — Φεστιβάλ", cat: "Φεστιβάλ", date: "2026-06-20", end: "2026-07-20", time: "Ποικίλο", venue: "50 σημεία της πόλης", area: "Όλη η πόλη", price: "Δωρεάν", free: true, desc: "63 δωρεάν εκδηλώσεις, για 31 ημέρες, σε 50 σημεία. Η Αθήνα γίνεται ανοιχτή σκηνή πολιτισμού.", url: "https://festival.opanda.gr" },
+  { id: "E812", title: "Χρήστος Μποκόρος — Ο ίσκιος του Παπαδιαμάντη", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-08-31", time: "09:00", venue: "Εθνική Βιβλιοθήκη", area: "ΚΠΙΣΝ", price: "Δωρεάν", free: true, desc: "23 προσωπογραφίες του Παπαδιαμάντη βασισμένες σε ιστορική φωτογραφία.", url: "https://nlg.gr" },
+  { id: "E813", title: "Barbara Kruger — Νέα Έργα", cat: "Εκθέσεις", date: "2026-05-25", end: "2026-11-01", time: "10:00", venue: "ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "13 νέα έργα που σχολιάζουν τον δημόσιο χώρο και κοινωνικοπολιτικά ζητήματα.", url: "https://snfcc.org" },
+  { id: "E814", title: "Le Passage — Μαρίνα Καρέλλα", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-07-04", time: "11:00", venue: "Γκαλερί Ζουμπουλάκη", area: "Κολωνάκι", price: "Δωρεάν", free: true, desc: "Νέα ενότητα έργων της Μαρίνας Καρέλλα. Τελευταίες μέρες.", url: "https://zoumboulakis.gr" },
+  { id: "E815", title: "Aleksandra Waliszewska — Η Εισβολή της Αρχαιότητας", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-09-30", time: "10:00", venue: "Μουσείο Μπενάκη", area: "Κέντρο", price: "9€", free: false, desc: "Ατμοσφαιρική έκθεση της Πολωνής εικαστικού στο Μουσείο Μπενάκη.", url: "https://benaki.org" },
+  { id: "E816", title: "Έμπνευση: Αρχαία Ελληνική Τέχνη στην Ιταλία", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-10-31", time: "09:00", venue: "Μουσείο Ακρόπολης", area: "Ακρόπολη", price: "15€", free: false, desc: "Έκθεση για την επιρροή της αρχαίας ελληνικής τέχνης στην Ιταλία.", url: "https://theacropolismuseum.gr" },
+  { id: "E817", title: "Ο Κόσμος της Πρωτοπορίας — Συλλογή Κωστάκη", cat: "Εκθέσεις", date: "2026-04-15", end: "2026-12-28", time: "10:00", venue: "Εθνική Πινακοθήκη", area: "Κέντρο", price: "10€", free: false, desc: "Έργα ρωσικής πρωτοπορίας από τη Συλλογή Κωστάκη.", url: "https://nationalgallery.gr" },
 ];
 
-const FEATURED_ID = "E701";
+const FEATURED_ID = "E801";
 
 const CAT_FILE: Record<string, string> = {
   "Μουσική": "mousiki", "Θέατρο": "theatro", "Εκθέσεις": "ektheseis",
@@ -77,6 +75,10 @@ const niceDate = (s: string) => {
   return `${DAYS_SHORT[d.getDay()]} ${d.getDate()} ${MON_SHORT[d.getMonth()]}`;
 };
 
+/* Share text builder */
+const shareText = (e: Ev) =>
+  `${e.title} — ${niceDate(e.date)}, ${e.venue}${e.free ? " (Δωρεάν)" : ""} | Βρες το στο zise.gr`;
+
 /* ===================== PAGE ===================== */
 
 export default function Home() {
@@ -91,6 +93,8 @@ export default function Home() {
   const [q, setQ] = useState("");
   const [liked, setLiked] = useState<Record<string, boolean>>({});
   const [pick, setPick] = useState<Ev | null>(null);
+  const [shareFor, setShareFor] = useState<Ev | null>(null);
+  const [copied, setCopied] = useState(false);
 
   const live = useMemo(() => EVENTS.filter(e => e.end >= today), [today]);
 
@@ -142,11 +146,21 @@ export default function Home() {
     return `${wd} ${d.getDate()} ${MONTHS_EL[d.getMonth()]}${isWknd ? " 🔥" : ""}`;
   };
 
+  const doCopy = (e: Ev) => {
+    const text = shareText(e) + " — https://zise.gr";
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 1500);
+      });
+    }
+  };
+
   const Card = ({ e, ongoing }: { e: Ev; ongoing?: boolean }) => {
     const refD = ongoing ? parse(e.end) : parse(e.date);
     return (
-      <div className="card" onClick={() => window.open(e.url, "_blank")}>
-        <div className="card-img" style={{ backgroundImage: evBg(e) }}>
+      <div className="card">
+        <div className="card-img" style={{ backgroundImage: evBg(e) }} onClick={() => window.open(e.url, "_blank")}>
           <div className="dateblock">
             {ongoing && <span className="upto">ΕΩΣ</span>}
             <b>{refD.getDate()}</b>
@@ -156,16 +170,23 @@ export default function Home() {
           <span className="cat-flag">{CAT_EMOJI[e.cat] || "✨"} {e.cat.toUpperCase()}</span>
         </div>
         <div className="card-body">
-          <h4>{e.title}</h4>
+          <h4 onClick={() => window.open(e.url, "_blank")} style={{ cursor: "pointer" }}>{e.title}</h4>
           <div className="meta">
             📅 {ongoing ? `έως ${niceDate(e.end)}` : niceDate(e.date)} · 🕐 {e.time}<br />
             📍 {e.venue}{!e.free && <> · <span className="price">{e.price}</span></>}
           </div>
-          <button
-            className={"heart" + (liked[e.id] ? " liked" : "")}
-            onClick={ev => { ev.stopPropagation(); setLiked(s => ({ ...s, [e.id]: !s[e.id] })); }}
-            aria-label="Αποθήκευση"
-          >{liked[e.id] ? "♥" : "♡"}</button>
+          <div className="card-actions">
+            <button
+              className={"act share" }
+              onClick={ev => { ev.stopPropagation(); setShareFor(e); setCopied(false); }}
+              aria-label="Κοινοποίηση"
+            >↗ Μοιράσου</button>
+            <button
+              className={"act heart" + (liked[e.id] ? " liked" : "")}
+              onClick={ev => { ev.stopPropagation(); setLiked(s => ({ ...s, [e.id]: !s[e.id] })); }}
+              aria-label="Αποθήκευση"
+            >{liked[e.id] ? "♥" : "♡"}</button>
+          </div>
         </div>
       </div>
     );
@@ -227,9 +248,9 @@ export default function Home() {
         .day-label::after{content:"";flex:1;height:1px;background:var(--line)}
         .day-label .today-b{background:var(--coral);color:#fff;font-family:'DM Sans';font-weight:700;font-size:10px;letter-spacing:1.5px;padding:4px 10px;border-radius:12px}
         .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
-        .card{background:var(--card);border-radius:18px;overflow:hidden;box-shadow:0 2px 10px rgba(26,26,46,.06);border:1px solid transparent;cursor:pointer;transition:.22s;position:relative}
+        .card{background:var(--card);border-radius:18px;overflow:hidden;box-shadow:0 2px 10px rgba(26,26,46,.06);border:1px solid transparent;transition:.22s;position:relative}
         .card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(26,26,46,.14);border-color:rgba(255,107,74,.25)}
-        .card-img{position:relative;height:150px;background-size:cover;background-position:center}
+        .card-img{position:relative;height:150px;background-size:cover;background-position:center;cursor:pointer}
         .card-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(26,26,46,.55) 100%)}
         .dateblock{position:absolute;top:12px;left:12px;z-index:2;background:rgba(255,248,240,.96);backdrop-filter:blur(4px);border-radius:12px;padding:8px 13px;text-align:center;min-width:54px}
         .dateblock .upto{display:block;font-size:8px;font-weight:700;letter-spacing:1px;color:var(--coral)}
@@ -238,11 +259,15 @@ export default function Home() {
         .free-flag{position:absolute;top:12px;right:12px;z-index:2;background:#2E7D32;color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:5px 11px;border-radius:12px}
         .cat-flag{position:absolute;bottom:10px;left:12px;z-index:2;color:#fff;font-size:11px;font-weight:700;letter-spacing:.5px;text-shadow:0 1px 6px rgba(0,0,0,.5)}
         .card-body{padding:14px 16px 16px;position:relative}
-        .card-body h4{font-size:15px;font-weight:700;line-height:1.32;color:var(--midnight);margin-bottom:7px;padding-right:36px}
-        .card-body .meta{font-size:12.5px;color:var(--gray);line-height:1.75;padding-right:36px}
+        .card-body h4{font-size:15px;font-weight:700;line-height:1.32;color:var(--midnight);margin-bottom:7px}
+        .card-body .meta{font-size:12.5px;color:var(--gray);line-height:1.75}
         .card-body .price{font-weight:700;color:var(--midnight)}
-        .heart{position:absolute;bottom:14px;right:14px;width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:#fff;display:grid;place-items:center;color:#C9C4D4;cursor:pointer;font-size:15px;transition:.18s}
-        .heart:hover,.heart.liked{color:var(--coral);border-color:var(--coral)}
+        .card-actions{display:flex;gap:8px;margin-top:12px}
+        .act{font-family:'DM Sans';font-weight:700;font-size:12.5px;border-radius:20px;cursor:pointer;transition:.18s;border:1px solid var(--line);background:#fff}
+        .act.share{flex:1;color:var(--coral);padding:8px 12px}
+        .act.share:hover{background:var(--coral);color:#fff;border-color:var(--coral)}
+        .act.heart{width:38px;color:#C9C4D4;font-size:15px;display:grid;place-items:center}
+        .act.heart:hover,.act.heart.liked{color:var(--coral);border-color:var(--coral)}
         .empty{text-align:center;padding:54px 20px;color:var(--gray)}
         .overlay{position:fixed;inset:0;background:rgba(26,26,46,.7);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;z-index:300;padding:20px}
         .pick{background:#fff;border-radius:24px;max-width:420px;width:100%;overflow:hidden;animation:pop .35s cubic-bezier(.2,1.4,.4,1)}
@@ -256,15 +281,18 @@ export default function Home() {
         .pick-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
         .btn-ghost{background:transparent;border:1.5px solid var(--line);color:var(--ink);font-family:'DM Sans';font-weight:700;font-size:14px;padding:12px 22px;border-radius:26px;cursor:pointer}
         .btn-coral{background:var(--coral);border:none;color:#fff;font-family:'DM Sans';font-weight:700;font-size:14px;padding:12px 24px;border-radius:26px;cursor:pointer;text-decoration:none;display:inline-block}
+        .share-grid{display:flex;flex-direction:column;gap:10px;padding:4px 0}
+        .share-btn{display:flex;align-items:center;gap:12px;padding:13px 18px;border-radius:14px;font-family:'DM Sans';font-weight:700;font-size:14px;text-decoration:none;border:none;cursor:pointer;transition:.15s;width:100%}
+        .share-btn:hover{transform:translateY(-1px)}
+        .sb-wa{background:#25D366;color:#fff}
+        .sb-vi{background:#7360F2;color:#fff}
+        .sb-fb{background:#1877F2;color:#fff}
+        .sb-cp{background:#F0EFF4;color:var(--ink)}
+        .sb-ico{font-size:18px}
         .news{margin-top:60px;background:radial-gradient(700px 360px at 80% 0%, rgba(255,107,74,.25), transparent 60%),var(--midnight);padding:56px 20px;border-radius:28px 28px 0 0}
         .news-inner{max-width:520px;margin:0 auto;text-align:center}
         .news h2{font-family:'Syne';font-weight:800;color:#fff;font-size:26px}
         .news p{color:rgba(255,255,255,.55);font-size:14px;margin:10px 0 22px}
-        .news .row{display:flex;gap:8px}
-        .news input{flex:1;padding:13px 18px;border-radius:13px;border:none;background:rgba(255,255,255,.1);color:#fff;font-size:14px;outline:none;font-family:'DM Sans'}
-        .news input::placeholder{color:rgba(255,255,255,.4)}
-        .news .go{background:var(--coral);border:none;color:#fff;font-weight:700;font-size:14px;padding:13px 24px;border-radius:13px;cursor:pointer;font-family:'DM Sans'}
-        .ok{color:var(--teal);font-weight:700;font-size:15px}
         .ftr{background:#15152A;padding:30px 20px;text-align:center}
         .ftr p{color:rgba(255,255,255,.3);font-size:12px;margin-top:8px}
         @media(max-width:760px){.feat{grid-template-columns:1fr}.search{display:none}.hero{padding:52px 20px 84px}}
@@ -378,6 +406,7 @@ export default function Home() {
         <p>Βρες τι γίνεται. Ζήσε τη στιγμή. · Αθήνα 2026 · Instagram @zise.gr</p>
       </footer>
 
+      {/* DICE MODAL */}
       {pick && (
         <div className="overlay" onClick={e => { if (e.target === e.currentTarget) setPick(null); }}>
           <div className="pick">
@@ -397,6 +426,36 @@ export default function Home() {
                 <button className="btn-ghost" onClick={rollDice}>Άλλο ένα 🎲</button>
                 <a className="btn-coral" href={pick.url} target="_blank" rel="noopener noreferrer">Πάμε! →</a>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* SHARE MODAL */}
+      {shareFor && (
+        <div className="overlay" onClick={e => { if (e.target === e.currentTarget) setShareFor(null); }}>
+          <div className="pick">
+            <div className="pick-head" style={{ background: "linear-gradient(135deg,#FF6B4A,#E84E2C)" }}>
+              <div className="em">↗</div>
+              <h3 style={{ color: "#fff" }}>Μοιράσου το event</h3>
+            </div>
+            <div className="pick-body">
+              <h4 style={{ fontSize: 17, marginBottom: 16 }}>{shareFor.title}</h4>
+              <div className="share-grid">
+                <a className="share-btn sb-wa" href={`https://wa.me/?text=${encodeURIComponent(shareText(shareFor) + " https://zise.gr")}`} target="_blank" rel="noopener noreferrer">
+                  <span className="sb-ico">💬</span> WhatsApp
+                </a>
+                <a className="share-btn sb-vi" href={`viber://forward?text=${encodeURIComponent(shareText(shareFor) + " https://zise.gr")}`}>
+                  <span className="sb-ico">📲</span> Viber
+                </a>
+                <a className="share-btn sb-fb" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://zise.gr")}`} target="_blank" rel="noopener noreferrer">
+                  <span className="sb-ico">👍</span> Facebook
+                </a>
+                <button className="share-btn sb-cp" onClick={() => doCopy(shareFor)}>
+                  <span className="sb-ico">{copied ? "✓" : "🔗"}</span> {copied ? "Αντιγράφηκε!" : "Αντιγραφή link"}
+                </button>
+              </div>
+              <button className="btn-ghost" style={{ marginTop: 16 }} onClick={() => setShareFor(null)}>Κλείσιμο</button>
             </div>
           </div>
         </div>
