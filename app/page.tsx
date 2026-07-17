@@ -10,28 +10,27 @@ type Ev = {
 };
 
 const EVENTS: Ev[] = [
-  // ===== 29 ΙΟΥΝΙΟΥ - 5 ΙΟΥΛΙΟΥ =====
-  { id: "E801", title: "John Legend — πρώτη φορά στην Ελλάδα", cat: "Μουσική", date: "2026-06-30", end: "2026-06-30", time: "21:00", venue: "Ωδείο Ηρώδου Αττικού", area: "Ακρόπολη", price: "55-120€", free: false, desc: "Ο πολυβραβευμένος John Legend έρχεται για πρώτη φορά στην Ελλάδα, για μια μοναδική εμφάνιση στο Ηρώδειο.", url: "https://more.com" },
-  { id: "E802", title: "Μαρία Παπαγεωργίου — Φ Hill Sessions", cat: "Μουσική", date: "2026-06-29", end: "2026-06-29", time: "21:00", venue: "Θέατρο Δόρα Στράτου", area: "Φιλοπάππου", price: "15-20€", free: false, desc: "Η Μαρία Παπαγεωργίου ανεβαίνει στη σκηνή του Δόρα Στράτου στο πλαίσιο των Φ Hill Sessions.", url: "https://more.com" },
-  { id: "E803", title: "«Το Σποτ» — Ζήσης Ρούμπος", cat: "Θέατρο", date: "2026-06-29", end: "2026-06-29", time: "21:00", venue: "Θέατρο Άλσος", area: "Πεδίον Άρεως", price: "14-18€", free: false, desc: "Το νέο έργο του Ζήση Ρούμπου σε σκηνοθεσία της Σοφίας Πάσχου, για πρεμιέρα στο Θέατρο Άλσος.", url: "https://more.com" },
-  { id: "E804", title: "Beat the Room — ΤΗΛΕΚΟΝΤΡΟΛ Edition", cat: "Μουσική", date: "2026-06-30", end: "2026-06-30", time: "21:00", venue: "Gazarte Roof Stage", area: "Γκάζι", price: "12-15€", free: false, desc: "Πρεμιέρα του Beat the Room με ΤΗΛΕΚΟΝΤΡΟΛ edition και παρουσιάστρια τη Σοφία Κουρτίδου.", url: "https://gazarte.gr" },
-  { id: "E805", title: "Stand-up Comedy στις γειτονιές", cat: "Πολιτισμός", date: "2026-06-30", end: "2026-06-30", time: "21:00", venue: "Γήπεδο Μπάσκετ Σεπολίων", area: "Σεπόλια", price: "Δωρεάν", free: true, desc: "Οι Στέλιος Ανατολίτης, Παναγιώτης Κούδας και Ειρήνη Ξυγκάκη σε μια δωρεάν παράσταση γεμάτη γέλιο.", url: "https://festival.opanda.gr" },
-  { id: "E806", title: "«Δημόσιο Σαλόνι: Μια εκτροπή»", cat: "Θέατρο", date: "2026-07-04", end: "2026-07-04", time: "20:00", venue: "Πλατεία Αυδή", area: "Μεταξουργείο", price: "Δωρεάν", free: true, desc: "Ένας οικιακός χώρος «εισβάλλει» σε μια πλατεία — ένα ανοιχτό εργαστήριο συλλογικής μνήμης.", url: "https://festival.opanda.gr" },
-  { id: "E807", title: "Γκαλά Όπερας — Κρατική Ορχήστρα Αθηνών", cat: "Μουσική", date: "2026-06-29", end: "2026-06-29", time: "21:00", venue: "Δημοτικό Θέατρο Λυκαβηττού", area: "Λυκαβηττός", price: "10-25€", free: false, desc: "Μεγάλο γκαλά όπερας από την Κρατική Ορχήστρα Αθηνών στο θέατρο του Λυκαβηττού.", url: "https://more.com" },
-  { id: "E808", title: "Κρατική Ορχήστρα — Αφιέρωμα στον Ελύτη", cat: "Μουσική", date: "2026-07-02", end: "2026-07-02", time: "21:00", venue: "Ρωμαϊκή Αγορά", area: "Πλάκα", price: "Δωρεάν", free: true, desc: "Αφιέρωμα στον Οδυσσέα Ελύτη με τη μουσική του Γιώργου Κουρουπού, στη Ρωμαϊκή Αγορά.", url: "https://festival.opanda.gr" },
-  { id: "E809", title: "Καραγκιόζης στις Γειτονιές", cat: "Παιδικά", date: "2026-07-01", end: "2026-07-01", time: "20:30", venue: "Πλατεία Κολιάτσου", area: "Πατήσια", price: "Δωρεάν", free: true, desc: "Ο θίασος Θεάτρου Σκιών του Σωτήρη Χαρίδημου παρουσιάζει μια παράσταση για όλη την οικογένεια.", url: "https://festival.opanda.gr" },
-  { id: "E810", title: "Ιφιγένεια η εν Αυλίδι — Ευριπίδης", cat: "Θέατρο", date: "2026-07-03", end: "2026-07-03", time: "21:00", venue: "Πάρκο Αντ. Τρίτση", area: "Ίλιον", price: "12€", free: false, desc: "Η τραγωδία του Ευριπίδη σε σκηνοθεσία Σάββα Στρούμπου, σε καλοκαιρινή περιοδεία.", url: "https://more.com" },
+  // ===== 20-26 ΙΟΥΛΙΟΥ =====
+  { id: "E901", title: "Sabaton / Savatage / Epica — Release Athens", cat: "Μουσική", date: "2026-07-25", end: "2026-07-25", time: "18:00", venue: "Πλατεία Νερού", area: "Φάληρο", price: "65-90€", free: false, desc: "Η πιο επική ημέρα του Release Athens φέρνει τους ιστορικούς Savatage ξανά στην Αθήνα, μαζί με Sabaton και Epica.", url: "https://releaseathens.gr" },
+  { id: "E902", title: "Godsmack — πρώτη φορά στην Ελλάδα", cat: "Μουσική", date: "2026-07-23", end: "2026-07-23", time: "21:00", venue: "Θέατρο Λυκαβηττού", area: "Λυκαβηττός", price: "45-65€", free: false, desc: "Ένα από τα πιο δυνατά heavy σχήματα των τελευταίων 30 ετών έρχεται για πρώτη φορά στη χώρα μας.", url: "https://more.com" },
+  { id: "E903", title: "Θάνος Μικρούτσικος — Αφιέρωμα", cat: "Μουσική", date: "2026-07-20", end: "2026-07-20", time: "21:00", venue: "Θέατρο Λυκαβηττού", area: "Λυκαβηττός", price: "20-35€", free: false, desc: "Η μουσική και τα τραγούδια του Θάνου Μικρούτσικου ανηφορίζουν στον Λυκαβηττό με μια παρέα σπουδαίων ερμηνευτών.", url: "https://more.com" },
+  { id: "E904", title: "Γιάννης Κότσιρας — 30 χρόνια", cat: "Μουσική", date: "2026-07-24", end: "2026-07-24", time: "21:00", venue: "Θέατρο Βράχων", area: "Βύρωνας", price: "20-28€", free: false, desc: "Ο Γιάννης Κότσιρας γιορτάζει τα 30 χρόνια στη δισκογραφία με υπέροχες καλοκαιρινές μουσικές βραδιές.", url: "https://more.com" },
+  { id: "E905", title: "Common Grounds Festival — ΚΠΙΣΝ", cat: "Φεστιβάλ", date: "2026-07-22", end: "2026-07-26", time: "19:00", venue: "ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "Για δεύτερη χρονιά, το διαπολιτισμικό φεστιβάλ Common Grounds φέρνει κοινότητες κοντά με μουσική, χορό και δράσεις. Ελεύθερη είσοδος.", url: "https://snfcc.org" },
+  { id: "E906", title: "Park Your Cinema — Θερινός Κινηματογράφος", cat: "Πολιτισμός", date: "2026-07-20", end: "2026-07-26", time: "21:00", venue: "Ξέφωτο ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "Δωρεάν προβολές κινηματογράφου κάτω από τα αστέρια, στο πάρκο του ΚΠΙΣΝ.", url: "https://snfcc.org" },
+  { id: "E907", title: "Sync Athens — After Work Party", cat: "Μουσική", date: "2026-07-24", end: "2026-07-24", time: "20:00", venue: "Sync Athens", area: "Κέντρο", price: "Δωρεάν", free: true, desc: "Το after work party της Παρασκευής με DJ sets, cocktails και καλοκαιρινή διάθεση στο κέντρο.", url: "https://athensvoice.gr" },
+  { id: "E908", title: "Marina Satti live", cat: "Μουσική", date: "2026-07-22", end: "2026-07-22", time: "21:00", venue: "Θέατρο Βράχων", area: "Βύρωνας", price: "22-30€", free: false, desc: "Η Marina Satti με τη μοναδική της μίξη ήχων και εντυπωσιακή σκηνική παρουσία στο Θέατρο Βράχων.", url: "https://more.com" },
+  { id: "E909", title: "Secret Garden Live Sessions", cat: "Μουσική", date: "2026-07-21", end: "2026-07-21", time: "21:00", venue: "Κήπος στο Κέντρο", area: "Κέντρο", price: "12-16€", free: false, desc: "Τέσσερις βραδιές, τέσσερα διαφορετικά lives, ένας καλοκαιρινός κήπος στο κέντρο της Αθήνας.", url: "https://athensvoice.gr" },
+  { id: "E910", title: "«Λυσιστράτη» — Αριστοφάνης", cat: "Θέατρο", date: "2026-07-26", end: "2026-07-26", time: "21:00", venue: "Θέατρο Δόρα Στράτου", area: "Φιλοπάππου", price: "15-22€", free: false, desc: "Η διαχρονική κωμωδία του Αριστοφάνη σε σύγχρονη ανάγνωση, σε καλοκαιρινή περιοδεία.", url: "https://more.com" },
   // ===== ΣΕ ΕΞΕΛΙΞΗ =====
-  { id: "E811", title: "Καλοκαίρι στην Αθήνα 2026 — Φεστιβάλ", cat: "Φεστιβάλ", date: "2026-06-20", end: "2026-07-20", time: "Ποικίλο", venue: "50 σημεία της πόλης", area: "Όλη η πόλη", price: "Δωρεάν", free: true, desc: "63 δωρεάν εκδηλώσεις, για 31 ημέρες, σε 50 σημεία. Η Αθήνα γίνεται ανοιχτή σκηνή πολιτισμού.", url: "https://festival.opanda.gr" },
-  { id: "E812", title: "Χρήστος Μποκόρος — Ο ίσκιος του Παπαδιαμάντη", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-08-31", time: "09:00", venue: "Εθνική Βιβλιοθήκη", area: "ΚΠΙΣΝ", price: "Δωρεάν", free: true, desc: "23 προσωπογραφίες του Παπαδιαμάντη βασισμένες σε ιστορική φωτογραφία.", url: "https://nlg.gr" },
-  { id: "E813", title: "Barbara Kruger — Νέα Έργα", cat: "Εκθέσεις", date: "2026-05-25", end: "2026-11-01", time: "10:00", venue: "ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "13 νέα έργα που σχολιάζουν τον δημόσιο χώρο και κοινωνικοπολιτικά ζητήματα.", url: "https://snfcc.org" },
-  { id: "E814", title: "Le Passage — Μαρίνα Καρέλλα", cat: "Εκθέσεις", date: "2026-06-04", end: "2026-07-04", time: "11:00", venue: "Γκαλερί Ζουμπουλάκη", area: "Κολωνάκι", price: "Δωρεάν", free: true, desc: "Νέα ενότητα έργων της Μαρίνας Καρέλλα. Τελευταίες μέρες.", url: "https://zoumboulakis.gr" },
-  { id: "E815", title: "Aleksandra Waliszewska — Η Εισβολή της Αρχαιότητας", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-09-30", time: "10:00", venue: "Μουσείο Μπενάκη", area: "Κέντρο", price: "9€", free: false, desc: "Ατμοσφαιρική έκθεση της Πολωνής εικαστικού στο Μουσείο Μπενάκη.", url: "https://benaki.org" },
-  { id: "E816", title: "Έμπνευση: Αρχαία Ελληνική Τέχνη στην Ιταλία", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-10-31", time: "09:00", venue: "Μουσείο Ακρόπολης", area: "Ακρόπολη", price: "15€", free: false, desc: "Έκθεση για την επιρροή της αρχαίας ελληνικής τέχνης στην Ιταλία.", url: "https://theacropolismuseum.gr" },
-  { id: "E817", title: "Ο Κόσμος της Πρωτοπορίας — Συλλογή Κωστάκη", cat: "Εκθέσεις", date: "2026-04-15", end: "2026-12-28", time: "10:00", venue: "Εθνική Πινακοθήκη", area: "Κέντρο", price: "10€", free: false, desc: "Έργα ρωσικής πρωτοπορίας από τη Συλλογή Κωστάκη.", url: "https://nationalgallery.gr" },
+  { id: "E911", title: "Van Gogh: The Immersive Experience", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-09-15", time: "10:00", venue: "Ελληνικός Κόσμος", area: "Κέντρο", price: "18€", free: false, desc: "Μετά τα sold out ανά τον κόσμο, η immersive εμπειρία Van Gogh στην Αθήνα.", url: "https://more.com" },
+  { id: "E912", title: "Χρήστος Μποκόρος — Ο ίσκιος του Παπαδιαμάντη", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-08-31", time: "09:00", venue: "Εθνική Βιβλιοθήκη", area: "ΚΠΙΣΝ", price: "Δωρεάν", free: true, desc: "23 προσωπογραφίες του Παπαδιαμάντη βασισμένες σε ιστορική φωτογραφία.", url: "https://nlg.gr" },
+  { id: "E913", title: "Barbara Kruger — Νέα Έργα", cat: "Εκθέσεις", date: "2026-05-25", end: "2026-11-01", time: "10:00", venue: "ΚΠΙΣΝ", area: "Καλλιθέα", price: "Δωρεάν", free: true, desc: "13 νέα έργα που σχολιάζουν τον δημόσιο χώρο και κοινωνικοπολιτικά ζητήματα.", url: "https://snfcc.org" },
+  { id: "E914", title: "Aleksandra Waliszewska — Η Εισβολή της Αρχαιότητας", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-09-30", time: "10:00", venue: "Μουσείο Μπενάκη", area: "Κέντρο", price: "9€", free: false, desc: "Ατμοσφαιρική έκθεση της Πολωνής εικαστικού στο Μουσείο Μπενάκη.", url: "https://benaki.org" },
+  { id: "E915", title: "Έμπνευση: Αρχαία Ελληνική Τέχνη στην Ιταλία", cat: "Εκθέσεις", date: "2026-06-01", end: "2026-10-31", time: "09:00", venue: "Μουσείο Ακρόπολης", area: "Ακρόπολη", price: "15€", free: false, desc: "Έκθεση για την επιρροή της αρχαίας ελληνικής τέχνης στην Ιταλία.", url: "https://theacropolismuseum.gr" },
+  { id: "E916", title: "Ο Κόσμος της Πρωτοπορίας — Συλλογή Κωστάκη", cat: "Εκθέσεις", date: "2026-04-15", end: "2026-12-28", time: "10:00", venue: "Εθνική Πινακοθήκη", area: "Κέντρο", price: "10€", free: false, desc: "Έργα ρωσικής πρωτοπορίας από τη Συλλογή Κωστάκη.", url: "https://nationalgallery.gr" },
 ];
 
-const FEATURED_ID = "E801";
+const FEATURED_ID = "E901";
 
 const CAT_FILE: Record<string, string> = {
   "Μουσική": "mousiki", "Θέατρο": "theatro", "Εκθέσεις": "ektheseis",
@@ -75,7 +74,6 @@ const niceDate = (s: string) => {
   return `${DAYS_SHORT[d.getDay()]} ${d.getDate()} ${MON_SHORT[d.getMonth()]}`;
 };
 
-/* Share text builder */
 const shareText = (e: Ev) =>
   `${e.title} — ${niceDate(e.date)}, ${e.venue}${e.free ? " (Δωρεάν)" : ""} | Βρες το στο zise.gr`;
 
@@ -177,7 +175,7 @@ export default function Home() {
           </div>
           <div className="card-actions">
             <button
-              className={"act share" }
+              className="act share"
               onClick={ev => { ev.stopPropagation(); setShareFor(e); setCopied(false); }}
               aria-label="Κοινοποίηση"
             >↗ Μοιράσου</button>
